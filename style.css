@@ -70,3 +70,9 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
+.overskrift{
+  color:white;
+  font: italic;
+  font-size: 80px;
+}
