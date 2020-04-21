@@ -28,7 +28,7 @@ header::after {
 }
 
 nav {
-  float: left;
+  float: center;
 }
 
 nav ul {
