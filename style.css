@@ -1,30 +1,22 @@
 body {
-
-	background: black;
-	
+    background-color: #222;
 }
-
 .container {
-	width: 80%;
-	margin: 0 auto;
+    width: 90%;
+    margin: auto;
 }
 
 header {
-  background: #55d6aa;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 800;
-  margin: 0;
+    background: #55d6aa;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    margin: 0;
 }
 
 header::after {
   content: '';
   display: table;
   clear: both;
-}
-
-.logo {
-  float: left;
-  padding: 10px 0;
 }
 
 nav {
@@ -39,8 +31,9 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 80px;
   padding-top: 23px;
+  padding-bottom: 15px;
 
   position: relative;
 }
@@ -66,15 +59,47 @@ nav a::before {
   top: 0;
   width: 0%;
 
-  transition: all ease-in-out 250ms;
+  transition: all ease-in-out 350ms;
 }
 
 nav a:hover::before {
   width: 100%;
 }
 
-.overskrift{
-  color:white;
-  font: italic;
-  font-size: 80px;
+.slidein {
+    position: relative;
+    animation-timing-function: linear;
+    animation: mymove 7s infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes mymove {
+    from {
+        right: 0px;
+    }
+
+    to {
+        right: 75px;
+    }
+}
+
+/*Teksten under overskriften på hovedsiden*/
+.undertekst {
+    width: 300px;
+    background-color: #EDD3C4;
+    padding: 50px;
+    margin: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    text-align: center;
+}
+
+.overskrift {
+    color: #F2F4F3;
+    font: 'Work Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
 }
