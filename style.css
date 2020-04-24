@@ -6,6 +6,7 @@ body {
     margin: auto;
 }
 
+
 header {
     background: #55d6aa;
     font-family: 'Work Sans', sans-serif;
@@ -20,7 +21,7 @@ header::after {
 }
 
 nav {
-  float: center;
+    float: center;
 }
 
 nav ul {
@@ -75,7 +76,7 @@ nav a:hover::before {
 
 @keyframes mymove {
     from {
-        right: 0px;
+        right: -75px;
     }
 
     to {
@@ -83,20 +84,25 @@ nav a:hover::before {
     }
 }
 
-/*Teksten under overskriften på hovedsiden*/
-.undertekst {
+/*Teksten under overskriften på hovedsiden, venstre side*/
+.undertekst_v {
     width: 300px;
     background-color: #EDD3C4;
     padding: 50px;
-    margin: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    position: absolute;
-    left: 700px;
+    margin: 70px;
     top: 300px;
     text-align: center;
 }
 
+/*Teksten under overskriften på hovedsiden, midten*/
+.undertekst_m {
+    width: 300px;
+    background-color: #EDD3C4;
+    padding: 50px;
+    margin: 70px;
+    text-align: center;
+    position: relative;
+}
 .overskrift {
     color: #F2F4F3;
     font: 'Work Sans', sans-serif;
