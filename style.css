@@ -100,8 +100,9 @@ nav a:hover::before {
     background-color: #EDD3C4;
     padding: 50px;
     margin: 70px;
+    top: 300px;
     text-align: center;
-    position: relative;
+    display:inline-block;
 }
 .overskrift {
     color: #F2F4F3;
