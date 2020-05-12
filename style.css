@@ -92,6 +92,17 @@ nav a:hover::before {
     margin: 70px;
     top: 300px;
     text-align: center;
+    display: inline-block;
+}
+
+.scratch {
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #EDD3C4;
+    margin-left: 35%;
+    margin-top: 10%
 }
 
 /*Teksten under overskriften på hovedsiden, midten*/
@@ -102,11 +113,20 @@ nav a:hover::before {
     margin: 70px;
     top: 300px;
     text-align: center;
-    display:inline-block;
 }
 .overskrift {
     color: #F2F4F3;
     font: 'Work Sans', sans-serif;
     font-size: 50px;
     text-align: center;
+}
+
+.scratchvideo{
+    top:250px;
+    margin-left: 35px;
+}
+
+.scratchkodevideo {
+    top: 250px;
+    right: auto;
 }
