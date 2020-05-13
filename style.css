@@ -4,6 +4,7 @@ body {
 .container {
     width: 90%;
     margin: auto;
+    overflow: hidden;
 }
 
 
@@ -12,6 +13,7 @@ header {
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
     margin: 0;
+    overflow: hidden;
 }
 
 header::after {
@@ -84,36 +86,16 @@ nav a:hover::before {
     }
 }
 
-/*Teksten under overskriften på hovedsiden, venstre side*/
-.undertekst_v {
-    width: 300px;
-    background-color: #EDD3C4;
-    padding: 50px;
-    margin: 70px;
-    top: 300px;
-    text-align: center;
-    display: inline-block;
-}
-
 .scratch {
     height: 500px;
     width: 500px;
-    border-style: solid;
+    border-style:  ridge;
     border-width: 10px;
-    border-color: #EDD3C4;
-    margin-left: 35%;
+    border-color: #F2F4F3;
+    margin-left: 36.5%;
     margin-top: 10%
 }
 
-/*Teksten under overskriften på hovedsiden, midten*/
-.undertekst_m {
-    width: 300px;
-    background-color: #EDD3C4;
-    padding: 50px;
-    margin: 70px;
-    top: 300px;
-    text-align: center;
-}
 .overskrift {
     color: #F2F4F3;
     font: 'Work Sans', sans-serif;
@@ -122,11 +104,134 @@ nav a:hover::before {
 }
 
 .scratchvideo{
-    top:250px;
+    top: 450px;
     margin-left: 35px;
+    position: absolute;
 }
 
 .scratchkodevideo {
-    top: 250px;
-    right: auto;
+    top: 450px;
+    right: 35px;
+    position: absolute;
 }
+
+html, body {
+    max-width: 2000px;
+    max-height: 1500px;
+    min-width: 1700px;
+    min-height: 0px;
+
+}
+
+.andsverklink {
+    color: white;
+    text-decoration: none !important;
+    font: 'Work Sans', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 680px;
+    text-align: center;
+}
+
+.escaperoom {
+    overflow: hidden;
+    position: relative;
+    height: 1000px;
+    right: -20%;
+    border-style:  ridge;
+    border-width: 7px;
+    border-color: white;
+    margin-top: 25px;
+    background-color: #55d6aa;
+    display: inline-block;
+}
+a:link{
+    color: inherit;
+}
+
+.undertekst_h {
+    color: #F2F4F3;
+    min-width: 280px;
+    max-width: 300px;
+    background-color: #444;
+    padding: 50px;
+    margin: 70px;
+    top: 10px;
+    left: 115px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    border-color: #55d6aa;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.undertekst_v {
+    color: #F2F4F3;
+    width: 300px;
+    background-color: #444;
+    padding: 50px;
+    margin: 70px;
+    top: 10px;
+    left: 115px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    border-color: #55d6aa;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.internett_sidetekst {
+    color: #F2F4F3;
+    position: absolute;
+    margin-left: 65%;
+    top: 300px;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.internettbilde1{
+    position: relative;
+    float: right;
+    top: 200px;
+    right: 20px;
+}
+
+
+.internettbilde2 {
+    position: relative;
+    float: right;
+    top: 200px;
+    right: 30px;
+}
+
+.internettbilde3 {
+    position: relative;
+    float: right;
+    top: 200px;
+    right: 60px;
+}
+
+.kilder {
+    color: #F2F4F3;
+    text-decoration: none!important;
+    width: 300px;
+    background-color: #444;
+    padding: 50px;
+    top: 250px;
+    padding-bottom: 30px;
+    margin-left: 40%;
+    display: inline-block;
+    position: absolute;
+    border-color: #55d6aa;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.dokumentasjon {
+    top: 100px;
+    margin-left: 30%;
+    position: relative;
+}
+
